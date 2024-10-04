@@ -44,7 +44,7 @@ if uploaded_file is not None:
 submit =st.button("Tell me about the invoice") 
 
 input_prompt="""
-you are an expert in understanding invioc.we will upload a image as invoice and you will have to answer any question based on the uploaded invoice image
+You are an expert in processing high-quality scanned documents. We will upload scanned pages that contain names, addresses, and phone numbers. Your task is to accurately extract only the full name and phone number from each scanned page for our cold-calling campaign. Please ignore any addresses and other irrelevant information.
 """
 
 if submit:
